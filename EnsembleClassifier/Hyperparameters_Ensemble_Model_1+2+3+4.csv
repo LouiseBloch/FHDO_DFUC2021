@@ -1,0 +1,5 @@
+﻿ID;Model;Pretrained;Learning rate warm up;Learning rate training;Scheduler;Batch size;Image size;Augmentations;Num epochs warm up;Num epochs;Oversampling;Optimizer;Drop rate;Multi GPU;Data directory;Train labels dir;Model directory
+1;tf_efficientnet_b1;True;0.0;0.0001;False;225;224;Base;0;30;False;Adam;0.3;False;;;
+2;tf_efficientnet_b0;True;0.0;0.0001;False;300;224;Huge;0;100;True;Adam;0.3;False;;;
+3;tf_efficientnet_b2;True;0.0;0.0001;True;225;224;Base;0;30;False;Adam;0.3;False;;;
+4;tf_efficientnet_b1;True;0.01;0.0001;True;225;224;Base;3;47;False;RMSprop;0.3;False;;;
